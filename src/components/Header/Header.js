@@ -18,7 +18,7 @@ const Header = () => {
 
 					<Navbar.Text style={{ margin: "10px" }}>
 						{" "}
-						Sign Out
+						<Link to="/">Sign Out</Link>
 					</Navbar.Text>
 				</Navbar.Collapse>
 			</Container>

@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import LandingPage from "./screens/LandingPage/LandingPage";
 import MyAccount from "./screens/MyAccount/MyAccount";
 import Transaction from "./screens/Transaction/Transaction";
+import Login from "./screens/Login/Login";
 const App = () => {
 	return (
 		<BrowserRouter>
@@ -13,6 +14,7 @@ const App = () => {
 			<main>
 				<Routes>
 					<Route path="/" element={<LandingPage />} exact />
+					<Route path="/login" element={<Login />} />
 					<Route path="/accountdetails" element={<MyAccount />} />
 					<Route path="/transaction" element={<Transaction />} />
 				</Routes>

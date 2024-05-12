@@ -5,9 +5,16 @@ import { Container, Table } from "react-bootstrap";
 const Transaction = () => {
 	return (
 		<Container>
-			<Table>
+			<Table
+				style={{
+					padding: "10px",
+					margin: "10px",
+					fontSize: "18px",
+					textAlign: "center",
+				}}
+			>
 				<thead>
-					<tr>
+					<tr class="table-success">
 						<th>Sno</th>
 						<th>Date</th>
 						<th>Description</th>
