@@ -11,7 +11,7 @@ const Header = () => {
 				</Navbar.Brand>
 				<Navbar.Toggle />
 				<Navbar.Collapse className="justify-content-end">
-					<Navbar.Text>Signed in as: Mark Otto</Navbar.Text>
+					{/* <Navbar.Text>Signed in as: Mark Otto</Navbar.Text> */}
 					<Navbar.Text style={{ margin: "10px" }}>
 						<Link to="/accountdetails"> Account Details</Link>
 					</Navbar.Text>

@@ -12,7 +12,7 @@ const Login = () => {
 		event.preventDefault();
 
 		// Check if the username and password are correct
-		if (username === "admin" && password === "password") {
+		if (username === "markotto" && password === "password") {
 			// Navigate to the home page
 			navigate("/accountdetails");
 		} else {
