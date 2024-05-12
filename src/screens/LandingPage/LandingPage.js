@@ -12,24 +12,15 @@ const LandingPage = () => {
 						<div className="intro-text">
 							<div>
 								<h1 className="title">
-                                    Welcome to <br />
-                                    Brake-Through: The Future of
-									Braking Systems
+									Welcome to <br />
+									Brake-Through: The Future of Braking Systems
 								</h1>
 								<p className="subtitle">
 									One Safe place for all your savings.
 								</p>
 							</div>
 							<div className="buttonContainer">
-								{/* <Link to="/login">
-								<button size="lg" className="landingbutton">
-									Login
-								</button>
-							</Link>
-							<Link to="/register">
-								<Button>Signup</Button>
-							</Link> */}
-								<a href="/login">
+								<Link to="/login">
 									<Button
 										size="lg"
 										variant="primary"
@@ -37,7 +28,7 @@ const LandingPage = () => {
 									>
 										Login
 									</Button>
-								</a>
+								</Link>
 							</div>
 						</div>
 					</Row>

@@ -2,7 +2,7 @@ import React from "react";
 import MainScreen from "../../components/MainScreen";
 import accountData from "../../Data/accountData";
 import { Link } from "react-router-dom";
-import { Badge, Card, Col, Row } from "react-bootstrap";
+import { Card, Col, Row } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
 
 const MyAccount = () => {
